@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritu Raj | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo">Ritu<span>Raj</span></div>
+    <nav class="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero section">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Ritu Raj</span></h1>
+      <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
+      <p>A passionate MCA student with strong skills in programming, frontend development, and Python projects. I build clean, scalable, and responsive web solutions.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="rituraj_resume_CU.pdf" class="btn secondary" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="rr.jpeg" alt="Ritu Raj" />
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section fade-in">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a motivated and detail-oriented MCA student passionate about programming, web development, and real-world problem solving. I strive to write clean, scalable, and efficient code while continuously learning new technologies.
+    </p>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section fade-in">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">💻 C++</div>
+      <div class="skill-card">🐍 Python</div>
+      <div class="skill-card">🟨 JavaScript</div>
+      <div class="skill-card">🌐 HTML</div>
+      <div class="skill-card">🎨 CSS</div>
+      <div class="skill-card">⚙️ Bootstrap</div>
+      <div class="skill-card">🗄 SQL</div>
+      <div class="skill-card">🧩 Git/GitHub</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section fade-in">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>🩸 Blood Donation Management System</h3>
+        <p>Responsive web app for donor registration and blood request management using HTML, CSS, JS, and SQL.</p>
+      </div>
+      <div class="project-card">
+        <h3>👨‍💼 Employee Management System</h3>
+        <p>Python desktop app (Tkinter + SQL) to manage employee records with CRUD operations and validation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section fade-in">
+    <h2 class="section-title">🎓 Education</h2>
+    <div class="edu-container">
+      <div class="edu-card">
+        <h3>MCA</h3>
+        <p><strong>Chandigarh University (CU)</strong></p>
+        <span>Jul 2024 – Jun 2026</span>
+      </div>
+      <div class="edu-card">
+        <h3>BCA</h3>
+        <p><strong>L.S College</strong></p>
+        <span>Aug 2020 – Dec 2023</span>
+        <p>Skills: Basic Python, HTML, +8 skills</p>
+      </div>
+      <div class="edu-card">
+        <h3>12th, Science</h3>
+        <p><strong>NKSM College (BSEB)</strong></p>
+        <span>2018 – 2020</span>
+        <p>Grade: First</p>
+      </div>
+      <div class="edu-card">
+        <h3>Matriculation, 10</h3>
+        <p><strong>UHS Semra Motipur Muzaffarpur (BSEB)</strong></p>
+        <span>Mar 2017 – Mar 2018</span>
+        <p>Grade: First</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section fade-in">
+    <h2 class="section-title">💼 Experience</h2>
+    <div class="exp-container">
+      <div class="exp-card">
+        <h3>Angular Full Stack</h3>
+        <p><strong>Infosys Springboard · Internship</strong></p>
+        <span>Nov 2025 – Present | Remote</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section fade-in">
+    <h2 class="section-title">📬 Contact Me</h2>
+    <p>Open to internships, entry-level roles, and collaborative projects.</p>
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="mailto:rituraj77800@gmail.com">📧 Email</a>
+      <a href="https://www.linkedin.com/in/ritu-rajmca/" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/ritu-raj-9262" target="_blank">💻 GitHub</a>
+      <a href="tel:+919262540944">📞 +91-9262540944</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Ritu Raj | Built with ❤️ using HTML, CSS & JS</p>
+  </footer>
+
+</body>
+</html>
